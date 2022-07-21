@@ -1,0 +1,76 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    height: 100vh;
+}
+
+.flexbox {
+    display: flex;
+    background-image: url("bg1.png");
+    overflow: hidden;
+}
+
+.heading {
+    margin: 40px;
+    padding-top: 50px;
+    font-size: 2rem;
+}
+
+.sub-heading {
+    margin: 40px;
+    font-size: 1.4rem;
+}
+
+.para {
+    margin: 40px;
+    font-size: 0.9rem;
+}
+
+.footer-para {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 460px;
+    color: black;
+}
+
+#design {
+    height: 400px;
+    position: absolute;
+    left: 300px;
+    bottom: 0px;
+}
+
+.btn {
+    height: 50px;
+}
+
+button {
+    font-size: 1.8rem;
+    margin: 0px 32px;
+    padding: 20px 40px;
+    height: 90px;
+    width: 300px;
+    background: rgba(128, 149, 165, 0.8);
+    border-radius: 5px;
+    border: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+button p{
+    font-size: 1rem;
+    color: white;
+}
